@@ -1,0 +1,206 @@
+body{
+    background-image: linear-gradient(to bottom, #000754, #000);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+.mainhead{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    color: #ffffff; 
+    font-family: 'Segoe UI', ap Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.051);
+    box-shadow: 0 0 10px #c4c4c4;
+}
+.mainhead > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: #000000 1px 1px 2px, #000000 0 0 1em, #000000 0 0 0.2em;
+}
+.mainhead > a:visited{
+    color: white;
+}
+.mainhead > a:hover{
+    color: gray;
+}
+.mainhead > a:active{
+    color: rgb(0, 0, 0);
+}
+.icon{
+    display: block;
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+
+/*HOMEPAGE*/
+.homepageInfo > h2{
+    font-size: 100px;
+    color: white;
+    margin-left: 50px;
+}
+.tagline > p{
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+}
+.intro > p{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+/*ABOUT US*/
+.aboutUs{
+    border: 2px solid white;
+    border-radius: 50px;
+    border-width: 1px;
+    background-color:  #80808015;
+    width: 600px;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+}
+.aboutUs > h3{
+    font-size: 20px;
+    color: white;
+}
+.aboutUs > p{
+    font-size: 15px;
+    color: white;
+    margin: auto;   
+}
+
+/*PROGRAMMS*/
+.programms{
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+p{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+    text-shadow: 0 0 30px #c4c4c4;
+}
+.btn1{
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.304);
+    background-color:  #4677ff41;
+    width: 200px;
+    padding: 30px; 
+}
+.btn1:hover{
+    color: #000000;
+    background-color: rgb(198, 198, 198);
+    box-shadow:0 0 15px rgba(255, 255, 255, 0.8), 0 0 5px inset rgba(255, 255, 255, 0.6);
+    
+}
+.btn2{
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.304);
+    background-color:  #4677ff41;
+    width: 200px;
+    padding: 30px;
+    margin-top: 70px; 
+}
+.btn2:hover{
+    color: #000000;
+    background-color: rgb(198, 198, 198);
+    
+}
+p{
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+}
+
+/*LEARN PROG LANGUAGES*/
+.LearnProgLanguages{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*FOR BEGINNERS BUTTON*/
+.beginnersBtn{
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.304);
+    background-color:  #4677ff41;
+    width: 200px;
+    height: 150px;
+    padding: 30px; 
+    
+    margin-top: 100px;
+}
+.beginnersBtn:hover{
+    color: #000000;
+    background-color: rgb(198, 198, 198);
+    box-shadow:0 0 15px rgba(255, 255, 255, 0.8), 0 0 5px inset rgba(255, 255, 255, 0.6);
+    
+}
+/*WEB DEV BUTTON*/
+.WebDevBtn{
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.304);
+    background-color:  #4677ff41;
+    width: 200px;
+    height: 150px;
+    padding: 30px; 
+    margin: 100px;
+    margin-top: 100px;
+}
+.WebDevBtn:hover{
+    color: #000000;
+    background-color: rgb(198, 198, 198);
+    box-shadow:0 0 15px rgba(255, 255, 255, 0.8), 0 0 5px inset rgba(255, 255, 255, 0.6);
+    
+}
+/*SOFT DEV BUTTON*/
+.SoftDevBtn{
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.304);
+    background-color:  #4677ff41;
+    width: 200px;
+    height: 150px;
+    padding: 30px; 
+    
+    margin-top: 100px;
+}
+.SoftDevBtn:hover{
+    color: #000000;
+    background-color: rgb(198, 198, 198);
+    box-shadow:0 0 15px rgba(255, 255, 255, 0.8), 0 0 5px inset rgba(255, 255, 255, 0.6);
+    
+}
+
+    
+
